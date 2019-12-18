@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Link Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Font Awesome, for icon social media -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN"
+      crossorigin="anonymous"
+    />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Web Sederhana | The Noodles Hype</title>
+  </head>
+  <body>
+    <!-- Header & Navigation Area -->
+    <header>
+      <a href="#" id="logo" title="Logo Noodles Hype"
+        >Noodles<span>Hype</span></a
+      >
+      <nav>
+        <ul class="navbar">
+          <li><a href="#" title="home">Home</a></li>
+          <li><a href="#" title="location">Location</a></li>
+        </ul>
+        <ul class="social-navbar">
+          <li>
+            <a href="#" title="facebook"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" title="instagram"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Background Area -->
+    <div class="background">
+      <div class="background-text">
+        <h1>THE NOODLES HYPE</h1>
+        <p>Homemade Noodles Since 1960s</p>
+        <div class="bg-btn">
+          <a href="#menu" title="menu">Menu</a>
+          <a href="#order" title="order">Order</a>
+        </div>
+      </div>
+    </div>
+    <!-- Section Menu -->
+    <section id="menu">
+      <div class="menu-text">
+        <h3>MENU</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+          asperiores.
+        </p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-card" id="menu-one">
+          <img
+            src="https://source.unsplash.com/1600x900/?noodles,chinese-noodles"
+            alt="Menu Noodles Hype"
+          />
+          <div class="menu-card-text">
+            <h3>MENU #1</h3>
+            <button class="menu-order-button">
+              Order
+            </button>
+          </div>
+        </div>
+        <div class="menu-card" id="menu-two">
+          <img
+            src="https://source.unsplash.com/1600x900/?noodle,italian-noodles"
+            alt="Menu Noodles Hype"
+          />
+          <div class="menu-card-text">
+            <h3>MENU #2</h3>
+            <button class="menu-order-button">
+              Order
+            </button>
+          </div>
+        </div>
+        <div class="menu-card" id="menu-three">
+          <img
+            src="https://source.unsplash.com/1600x900/?spagetti,ramen"
+            alt="Menu Noodles Hype"
+          />
+          <div class="menu-card-text">
+            <h3>MENU #3</h3>
+            <button class="menu-order-button">
+              Order
+            </button>
+          </div>
+        </div>
+        <div class="menu-card" id="menu-four">
+          <img
+            src="https://source.unsplash.com/1600x900/?fried-noodles,lomie"
+            alt="Menu Noodles Hype"
+          />
+          <div class="menu-card-text">
+            <h3>MENU #4</h3>
+            <button class="menu-order-button">
+              Order
+            </button>
+          </div>
+        </div>
+        <div class="menu-card" id="menu-five">
+          <img
+            src="https://source.unsplash.com/1600x900/?ramen,noodle"
+            alt="Menu Noodles Hype"
+          />
+          <div class="menu-card-text">
+            <h3>MENU #5</h3>
+            <button class="menu-order-button">
+              Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section Order -->
+    <section id="order">
+      <div class="order-text">
+        <h3>MAKE ONLINE ORDER</h3>
+        <p>
+          Easy. Simple. Delivered.
+        </p>
+      </div>
+      <form action="#" method="#">
+        <div id="menu-list-name">
+          <label for="food">Food List</label>
+          <select id="food">
+            <option value="menu-one">Menu #1</option>
+            <option value="menu-two">Menu #2</option>
+            <option value="menu-three">Menu #3</option>
+            <option value="menu-four">Menu #4</option>
+            <option value="menu-five">Menu #5</option>
+          </select>
+        </div>
+
+        <div id="food-pricelist">
+          <label for="pricelist">Price</label>
+          <select id="price">
+            <option value="price-menu-one">IDR 50,000 Menu #1</option>
+            <option value="price-menu-two">IDR 80,000 Menu #2</option>
+            <option value="price-menu-three">IDR 70,000 Menu #3</option>
+            <option value="price-menu-four">IDR 100,000 Menu #4</option>
+            <option value="price-menu-five">IDR 60,000 Menu #5</option>
+          </select>
+        </div>
+        <div id="quantity-list">
+          <label for="quantity">Quantity</label>
+          <input type="text" id="quantity" />
+        </div>
+        <div>
+          <button id="order-button">Order</button>
+        </div>
+      </form>
+      <p>Thank you for ordering!</p>
+    </section>
+    <!-- Footer Area -->
+    <footer>
+      <div id="copyright">
+        <span>Copyright &copy 2019 by Juleshwa</span>
+      </div>
+      <div class="navbar-two">
+        <ul>
+          <li><a href="#menu" title="menu">Menu</a></li>
+          <li><a href="#order" title="order">Order</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
